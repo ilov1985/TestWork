@@ -1,4 +1,4 @@
-﻿using System
+﻿using System;
 class Program
 {
     static void PrintArr (string[] arr)
@@ -11,7 +11,7 @@ class Program
 
     static string[] StrInput()
     {
-        string str = Console.ReadLine();
+        string? str = Console.ReadLine();
         string[] arr = str.Split(' ');
         return arr;
     }
