@@ -11,6 +11,7 @@ class Program
 
     static string[] StrInput()
     {
+        Console.WriteLine("Введите массив, разделяя элементы пробелами:");
         string? str = Console.ReadLine();
         string[] arr = str.Split(' ');
         return arr;
